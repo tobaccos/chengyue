@@ -1,0 +1,83 @@
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 未被访问的链接     */
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 已被访问过的链接    */
+a:hover {
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接  */
+a:active {
+  color: #FFFFFF;
+}
+/* 鼠标点中激活链接    */
+body {
+  font-family: "微软雅黑";
+  background: #fff;
+  font-size: 0.375rem;
+}
+.header {
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  background: #ff3600;
+  text-align: center;
+  color: #FFF;
+  font-size: 0.46875rem;
+}
+.wraper {
+  text-align: center;
+  padding-left: 0.421875rem;
+  padding-right: 0.421875rem;
+}
+.left {
+  float: left;
+  font-size: 0.46875rem;
+  color: #d4d4d4;
+  font-family: "黑体";
+}
+.content {
+  padding-top: 0.15625rem;
+}
+.rad {
+  color: #000000;
+  background-color: #f5f5f5;
+  margin-left: 0.3125rem;
+  width: 9.390625rem;
+  height: 6.765625rem;
+  margin-top: 0.46875rem;
+  border-radius: 0.15625rem;
+  padding: 0.9375rem 0.46875rem;
+}
+.imglogo {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+.imglogo1 {
+  width: 3.515625rem;
+  height: 1.078125rem;
+}
+.logo {
+  padding-top: 0.625rem;
+  text-align: center;
+}
+.intro {
+  padding-top: 0.15625rem;
+  text-align: center;
+}
+.imgleft {
+  width: 0.625rem;
+}
+.header span:nth-of-type(1) {
+  position: relative;
+  top: -0.046875rem;
+}

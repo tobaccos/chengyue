@@ -1,0 +1,489 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-size: 0.25rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+/* 未被访问的链接     */
+a:visited {
+  text-decoration: none;
+}
+/* 已被访问过的链接    */
+a:hover {
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接  */
+a:active {
+  color: #FFFFFF;
+}
+/* 鼠标点中激活链接    */
+.a {
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.header {
+  width: 10rem;
+  height: 1.375rem;
+  background-color: #ff3600;
+  text-align: center;
+  color: #fff;
+  line-height: 1.375rem;
+  font-size: 0.46875rem;
+  z-index: 100;
+}
+.state {
+  height: 2.828125rem;
+  background-color: #fff;
+  padding-left: 0.78125rem;
+  padding-top: 0.625rem;
+  position: relative;
+}
+section {
+  margin-bottom: 0.3125rem;
+}
+.statelogin {
+  float: right;
+  position: relative;
+  top: 0.46875rem;
+  right: 2.34375rem;
+}
+.state .clogin {
+  display: inline-block;
+  width: 1.921875rem;
+  height: 0.625rem;
+  line-height: 0.625rem;
+  text-align: center;
+  background-color: #FF1700;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.34375rem;
+  margin-left: 0.65625rem;
+}
+.state img {
+  height: 1.640625rem;
+}
+.state .phot {
+  position: relative;
+  top: 0.1rem;
+}
+.state .flogin {
+  color: #999999;
+  margin-left: 0.65625rem;
+  font-size: 0.28125rem;
+}
+.infoOrder,
+.distribution {
+  width: 10rem;
+  height: 3.34375rem;
+  background-color: #fff;
+}
+.infoOrder .infoOrderAll {
+  padding-left: 0.484375rem;
+  height: 1.40625rem;
+  width: 10rem;
+  border-bottom: 2px solid #DDD1D1;
+  line-height: 1.40625rem;
+}
+.infoOrder .infoOrderAll img {
+  width: 0.703125rem;
+  height: 0.703125rem;
+  margin-right: 0.4375rem;
+}
+.infoOrder .infoOrderAll span {
+  font-size: 0.40625rem;
+  position: relative;
+  top: 0.1rem;
+}
+.infoOrder .infoOrderCon {
+  width: 10rem;
+  height: 1.9375rem;
+}
+.infoOrder .infoOrderCon ul li {
+  float: left;
+  width: 2rem;
+  height: 1.40625rem;
+  text-align: center;
+}
+.infoOrder .infoOrderCon ul li img {
+  position: relative;
+  left: 0.25rem;
+  margin-top: 0.14rem;
+}
+.infoOrder .infoOrderCon ul li span {
+  display: inline-block;
+  position: relative;
+  font-size: 0.34375rem;
+  color: #A5A5A5;
+  margin-top: 0.1rem;
+}
+.infoOrder .infoOrderCon ul li strong {
+  display: inline-block;
+  width: 0.34375rem;
+  height: 0.34375rem;
+  background-color: #EB6000;
+  border-radius: 0.34375rem;
+  color: #fff;
+  line-height: 0.34375rem;
+  position: relative;
+  left: -0.1rem;
+}
+.infoOrder .infoOrderCon ul li:nth-of-type(1) img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.infoOrder .infoOrderCon ul li:nth-of-type(3) img {
+  margin-top: 0.15625rem;
+  width: 0.703125rem;
+  height: 0.625rem;
+}
+.infoOrder .infoOrderCon ul li:nth-of-type(2) img {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 0.15625rem;
+}
+.infoOrder .infoOrderCon ul li:nth-of-type(4) img {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 0.125rem;
+}
+.infoOrder .infoOrderCon ul li:nth-of-type(5) img {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 0.125rem;
+}
+.distribution .disControl {
+  padding-left: 0.484375rem;
+  height: 1.40625rem;
+  width: 10rem;
+  border-bottom: 2px solid #DDD1D1;
+  line-height: 1.40625rem;
+}
+.distribution .disControl img {
+  width: 0.703125rem;
+  height: 0.703125rem;
+  margin-right: 0.4375rem;
+}
+.distribution .disControl span {
+  font-size: 0.40625rem;
+  position: relative;
+  top: 0.1rem;
+}
+.dislei .disleiLeft {
+  width: 5rem;
+  height: 1.9375rem;
+  line-height: 1.9375rem;
+  float: left;
+  text-align: center;
+}
+.dislei .disleiRight {
+  width: 5rem;
+  height: 1.9375rem;
+  line-height: 1.9375rem;
+  float: left;
+  text-align: center;
+}
+.dislei .disleiLeft a span:nth-of-type(1) {
+  font-size: 0.515625rem;
+  color: #FF1800;
+}
+.dislei img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+.dislei .disleiLeft a span:nth-of-type(2) {
+  margin-left: 0.359375rem;
+  font-size: 0.421875rem;
+  color: #B2B2B2;
+}
+.dislei .disleiRight a span:nth-of-type(1) {
+  font-size: 0.515625rem;
+  color: #FF1800;
+}
+.dislei .disleiRight a span:nth-of-type(2) {
+  margin-left: 0.359375rem;
+  font-size: 0.421875rem;
+  color: #B2B2B2;
+}
+.collect,
+.mcontrol {
+  padding-left: 0.484375rem;
+  width: 10rem;
+  height: 1.5625rem;
+  background-color: #fff;
+  line-height: 1.5625rem;
+}
+.collect img,
+.mcontrol img {
+  width: 0.703125rem;
+  height: 0.703125rem;
+  margin-right: 0.4375rem;
+}
+.collect span,
+.mcontrol span {
+  font-size: 0.40625rem;
+  position: relative;
+  top: 0.1rem;
+}
+.mcontrol {
+  margin-bottom: 2.8125rem;
+}
+#paydel {
+  background-color: transparent;
+}
+.ordinary .orinfo,
+.viplogin .orinfo,
+.daivip .orinfo {
+  position: absolute;
+  left: 3rem;
+  top: 0.859375rem;
+  font-size: 0.3125rem;
+  line-height: 0.359375rem;
+  color: #252525;
+}
+.ordinary .photo {
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+}
+.photo img {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+.viplogin .photo {
+  position: absolute;
+  right: 0.859375rem;
+  top: 0.5625rem;
+}
+.orinfo .svip {
+  font-size: 0.390625rem;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#D8C810), to(#F5B300), to(#000));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.daivip .photo {
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+}
+.daivip .daili {
+  color: #FF0C00;
+  font-size: 0.3125rem;
+}
+.kuang {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 101;
+}
+.shadw {
+  width: 6.25rem;
+  height: 3.59375rem;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.125rem;
+  margin-top: -1.796875rem;
+  z-index: 200;
+  text-align: center;
+}
+.shadw .head {
+  width: 100%;
+  height: 0.625rem;
+  background-color: #ff3600;
+  color: #fff;
+  line-height: 0.625rem;
+  text-align: center;
+  font-size: 0.328125rem;
+}
+#email {
+  width: 4.6875rem;
+  height: 0.625rem;
+  border: 1px solid #000;
+  font-size: 0.328125rem;
+  margin-top: 0.78125rem;
+}
+.shadw .sure {
+  position: absolute;
+  bottom: 0.3125rem;
+  left: 0.78125rem;
+}
+.shadw button {
+  width: 1.5625rem;
+  height: 0.546875rem;
+  background-color: #ff3600;
+  color: #fff;
+  font-size: 0.3125rem;
+}
+.shadw .quxiao {
+  position: absolute;
+  bottom: 0.3125rem;
+  right: 0.78125rem;
+}
+.shadw span {
+  display: inline-block;
+  margin-top: 0.78125rem;
+  font-size: 0.359375rem;
+}
+.kuang,
+.shadw {
+  display: none;
+}
+.now {
+  width: 5rem;
+  height: 0.78125rem;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.5rem;
+  margin-top: -1.5625rem;
+  z-index: 230;
+  text-align: center;
+  line-height: 0.78125rem;
+  font-size: 0.359375rem;
+  display: none;
+}
+.left {
+  font-size: 0.46875rem;
+  color: #d4d4d4;
+  font-family: "黑体";
+  float: left;
+}
+.shadw1 {
+  width: 6.25rem;
+  height: 2.5rem;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.125rem;
+  margin-top: -1.25rem;
+  z-index: 200;
+  text-align: center;
+}
+.shadw1 .sure1 {
+  position: absolute;
+  bottom: 0.3125rem;
+  left: 0.78125rem;
+}
+.shadw1 button {
+  width: 1.5625rem;
+  height: 0.546875rem;
+  background-color: #ff3600;
+  color: #fff;
+  font-size: 0.3125rem;
+}
+.shadw1 .quxiao1 {
+  position: absolute;
+  bottom: 0.3125rem;
+  right: 0.78125rem;
+}
+.shadw1 span {
+  display: inline-block;
+  margin-top: 0.78125rem;
+  font-size: 0.359375rem;
+}
+.kuang,
+.shadw1 {
+  display: none;
+}
+.shadw1 p {
+  padding: 0.46875rem 0.15625rem;
+  font-size: 0.3125rem;
+}
+.shadw2 {
+  width: 6.25rem;
+  height: 3.59375rem;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.125rem;
+  margin-top: -1.796875rem;
+  z-index: 200;
+  text-align: center;
+}
+.shadw2 .head {
+  width: 100%;
+  height: 0.625rem;
+  background-color: #ff3600;
+  color: #fff;
+  line-height: 0.625rem;
+  text-align: center;
+  font-size: 0.328125rem;
+}
+#phone {
+  width: 4.6875rem;
+  height: 0.625rem;
+  border: 1px solid #000;
+  font-size: 0.328125rem;
+  margin-top: 0.78125rem;
+}
+.shadw2 .sure {
+  position: absolute;
+  bottom: 0.3125rem;
+  left: 0.78125rem;
+}
+.shadw2 button {
+  width: 1.5625rem;
+  height: 0.546875rem;
+  background-color: #ff3600;
+  color: #fff;
+  font-size: 0.3125rem;
+}
+.shadw2 .quxiao {
+  position: absolute;
+  bottom: 0.3125rem;
+  right: 0.78125rem;
+}
+.shadw2 span {
+  display: inline-block;
+  margin-top: 0.78125rem;
+  font-size: 0.359375rem;
+}
+.kuang,
+.shadw2 {
+  display: none;
+}
+#price {
+  width: 0.546875rem;
+  height: 0.546875rem;
+  margin-left: 0.078125rem;
+  margin-right: 0.53125rem;
+}

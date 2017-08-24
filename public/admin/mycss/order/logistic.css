@@ -1,0 +1,124 @@
+#orders .submenu{
+  display:block;
+}
+#orders>a{
+  color:#5999D0;
+}
+.div1{
+  text-align:center;
+  padding:10px 40px;
+  background:white;
+  border-radius:12px;
+  -moz-border-radius:12px; /* 老的 Firefox */
+  margin-top: 10px;
+  width:577px;
+  height:380px;
+}
+.div2{
+  /*background:#e83f18;*/
+  background: #fff;
+   width:100%;
+   text-align:left ! important;
+   height:600px;
+
+  /*max-width:800px;*/
+/*_height:200px;*/
+
+
+  /*border-radius:25px;
+  -moz-border-radius:25px; /* 老的 Firefox */
+}
+.lab{
+  margin: 0px 0 0 0;
+  height: 33px;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+.div3{
+  display: block;
+  clear: both;
+}
+.inp{
+  top: 30px;
+  float: right;
+}
+.act{
+  top:124px;
+  left: -74px;
+  float: left;
+}
+tr{
+
+}
+.inp1{
+  left: -55px;
+  top:36px !important;
+  z-index: 3;
+	width: 80px;
+	margin-bottom: 10px;
+	BACKGROUND-COLOR: transparent;
+}
+.inpname{
+  width: 22%;
+}
+.inpw{
+  /*top: 12px;*/
+  float: right;
+}
+img{
+  margin-top: -22px;
+  margin-left: -9px;
+  width:595px
+}
+.butt{
+  float: left;
+  margin-top: 50px;
+  left: 150px;
+  margin-left: 20px;
+}
+.div5{
+  float:right ;
+  margin-bottom:10px;
+}
+.div6{
+  float:right ;
+}
+th{
+  max-width: 100px;
+}
+.mod{
+  top: 100px;
+}
+#return{
+  float:right;
+}
+#inp{
+  background-color: transparent;
+  padding: 0px;
+  border:none;
+   color: #fff;
+}
+#code{
+  BACKGROUND-COLOR: transparent;
+  padding: 0px;
+  border:none;
+}
+#name{
+  BACKGROUND-COLOR: transparent;
+  padding: 0px;
+  border:none;
+}
+#title{
+  background:#e83f18;
+  color:white;
+}
+.toright{
+  float: right;
+}
+.toleft{
+  float: left;
+}
+.bb{
+      bottom: 140px;
+}

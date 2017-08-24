@@ -1,0 +1,43 @@
+#orders .submenu{
+    display:block;
+}
+#orders>a{
+    color:#5999D0;
+}
+.totop{
+    top:9px;
+}
+.data{
+    width: 270px;
+    float: left;
+    display: inline-block;
+}
+.data input{
+    font-size:8px;
+}
+.register{
+    margin-top: 8px;
+    float: left;
+    margin-right: 5px;
+}
+.searchbtn{
+    border-radius:4px;
+    height:28px;
+    margin-top:-3px;
+    line-height:14px;
+}
+.mybtn{
+    margin-bottom:12px;
+    float: left;
+}
+table,th,tr{
+    text-align: center;
+}
+#page{
+  text-align: center;
+}
+.mybtn1{
+    margin-bottom:12px;
+    float: left;
+    margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+#user .submenu{
+  display:block;
+}
+#user>a{
+  color:#5999D0;
+}
+.totop{
+  top:15px;
+}
+.data{
+  width: 300px;
+  float: left;
+  display: inline-block;
+  margin-left: -10px;
+  top: 5px;
+}
+.data input{
+  font-size:8px;
+}
+.register{
+  margin-top: 8px;
+  float: left;
+  margin-right: 5px;
+}
+.searchbtn{
+  border-radius:4px;
+  height:28px;
+  margin-top:-3px;
+  line-height:14px;
+}
+.mysel{
+  margin-bottom:12px;
+  margin-left:-12px;
+}
+#simple-table{
+  margin-top: 16px;
+}

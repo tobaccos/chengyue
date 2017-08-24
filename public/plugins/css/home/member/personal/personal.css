@@ -1,0 +1,166 @@
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 未被访问的链接     */
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 已被访问过的链接    */
+a:hover {
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接  */
+a:active {
+  color: #FFFFFF;
+}
+/* 鼠标点中激活链接    */
+body {
+  font-family: "微软雅黑";
+  background: #f5f5f5;
+  font-size: 0.46875rem;
+}
+.header {
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  background: #ff3600;
+  font-size: 0.46875rem;
+  color: #FFF;
+  text-align: center;
+}
+.wraper {
+  padding-left: 0.421875rem;
+  padding-right: 0.421875rem;
+}
+.left {
+  font-size: 0.46875rem;
+  color: #d4d4d4;
+  font-family: "黑体";
+  float: left;
+}
+.content {
+  padding-top: 0.15625rem;
+}
+.bg_white {
+  background: #FFFFFF;
+}
+.padding_lr {
+  padding-left: 0.421875rem;
+  padding-right: 0.421875rem;
+}
+.headImg {
+  font-size: 0.375rem;
+  height: 2.34375rem;
+  padding-top: 0.4375rem;
+}
+.float_r {
+  float: right;
+}
+.wei img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: -0.1rem;
+}
+.userId {
+  margin-top: 0.046875rem;
+  height: 1.1875rem;
+  line-height: 1.1875rem;
+}
+.twocode {
+  height: 2.46875rem;
+  margin-top: 0.109375rem;
+  line-height: 2.46875rem;
+}
+.bind {
+  margin-top: 0.109375rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+}
+.phone {
+  margin-top: 0.046875rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+}
+.qq {
+  margin-top: 0.046875rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+}
+.email {
+  margin-top: 0.046875rem;
+  height: 0.9375rem;
+  line-height: 0.9375rem;
+}
+.imgleft {
+  width: 0.625rem;
+}
+.header span:nth-of-type(1) {
+  position: relative;
+  top: -0.046875rem;
+}
+.a-upload {
+  padding: 4px 10px;
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #888;
+  background: #fafafa;
+  border-radius: 4px;
+  display: inline-block;
+  left: 0.3125rem;
+  top: 0.46875rem;
+  background-color: #fff;
+  display: block;
+  width: 1.5625rem;
+  height: 1rem;
+}
+.a-photo {
+  position: relative;
+  top: 0.46875rem;
+  font-size: 0.46875rem;
+}
+.a-upload input {
+  position: absolute;
+  font-size: 100px;
+  width: 10rem;
+  height: 2.34375rem;
+  right: -1.5625rem;
+  top: -0.9375rem;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  z-index: 201;
+}
+.img_div {
+  min-height: 100px;
+  min-width: 100px;
+  position: absolute;
+  top: 0.625rem;
+  right: 0.234375rem;
+}
+.img_div img {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: absolute;
+  top: -0.625rem;
+  right: -0.2rem;
+}
+.isImg {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: absolute;
+  right: 0.015625rem;
+}
+.upload {
+  position: absolute;
+  width: 100%;
+  width: 3.125rem;
+  height: 1.875rem;
+  right: 0.3125rem;
+}

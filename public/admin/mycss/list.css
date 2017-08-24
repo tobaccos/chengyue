@@ -1,0 +1,41 @@
+#dynamic-table th,tr,td{
+    text-align:center;
+}
+.myadd{
+    margin-bottom: 12px;
+}
+.myicon::before{
+    font-size:25px;
+}
+#nav-search{
+    top:11px;
+}
+.searchbtn{
+    border-radius:4px;
+    height:28px;
+    margin-top:-3px;
+    line-height:14px;
+}
+.dateform{
+    width: 270px;
+    top: -39px;
+    position: absolute;
+    right: 103px;
+}
+.dateform input{
+    font-size:8px;
+}
+.proclass{
+    width:150px;
+    position: absolute;
+    /* top: 0px; */
+    margin-top: -39px;
+    right: 500px;
+    margin-right:27px;
+}
+#dynamic-table i{
+    width:20px;
+    height:20px;
+    /*background:red;*/
+    margin-left:20px;
+}

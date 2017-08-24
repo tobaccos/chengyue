@@ -1,0 +1,147 @@
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 未被访问的链接     */
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* 已被访问过的链接    */
+a:hover {
+  text-decoration: none;
+}
+/* 鼠标悬浮在上的链接  */
+a:active {
+  color: #FFFFFF;
+}
+/* 鼠标点中激活链接    */
+body {
+  font-family: "微软雅黑";
+  background: #f5f5f5;
+  font-size: 0.46875rem;
+  color: #000000;
+}
+.header {
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  background: #ff3600;
+  font-size: 0.46875rem;
+  color: #FFF;
+  text-align: center;
+}
+.wraper {
+  padding-left: 0.421875rem;
+  padding-right: 0.421875rem;
+}
+.left {
+  font-size: 0.46875rem;
+  color: #d4d4d4;
+  font-family: "黑体";
+  float: left;
+}
+.content {
+  border-top: 0.03125rem solid #eeeeee;
+  border-bottom: 0.03125rem solid #eeeeee;
+  font-size: 0.34375rem;
+}
+input {
+  font-size: 0.78125rem;
+  float: right;
+  width: 6.296875rem;
+  height: 84.2%;
+  vertical-align: middle;
+  padding-left: 0.46875rem;
+}
+p {
+  margin-top: 0.3125rem;
+  font-size: 0.78125rem;
+  float: right;
+  width: 6.296875rem;
+  height: 80%;
+  vertical-align: middle;
+  padding-left: 0.46875rem;
+}
+.bg_white {
+  background: #FFFFFF;
+}
+.wraper {
+  padding-left: 0.421875rem;
+  padding-right: 0.421875rem;
+}
+.right {
+  float: right;
+}
+.common {
+  height: 1.5625rem;
+  line-height: 0.9375rem;
+  border-bottom: 0.03125rem solid #eeeeee;
+}
+.footer {
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  background: #ff3600;
+  font-size: 0.34375rem;
+  color: #FFF;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.margin_top {
+  margin-top: 0.40625rem;
+}
+.ok {
+  width: 8.953125rem;
+  height: 1.09375rem;
+  line-height: 1.09375rem;
+  margin: 0 auto;
+  margin-top: 0.46875rem;
+  background: #fc5757;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+img {
+  margin-top: 0.28125rem;
+}
+.che {
+  float: left;
+}
+.pho {
+  width: 0.859375rem;
+  height: 0.859375rem;
+  float: left;
+}
+.top1 {
+  font-size: 0.40625rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.234375rem;
+}
+.list {
+  height: 1.40625rem;
+  margin-bottom: 0.234375rem;
+}
+.list span {
+  margin-left: 0.34375rem;
+  padding: 0.3125rem;
+  font-size: 0.4375rem;
+  line-height: 3.0;
+}
+.list1 {
+  height: 1.40625rem;
+  margin-top: 0.46875rem;
+}
+.list1 span {
+  font-size: 0.4375rem;
+  line-height: 3.0;
+}
+.picdiv {
+  width: 1.09375rem;
+  float: right;
+  text-align: left;
+}

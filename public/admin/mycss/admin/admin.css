@@ -1,0 +1,12 @@
+#admin .submenu{
+	display:block;
+}
+#admin>a{
+	color:#5999D0;
+}
+.mybtn{
+    margin-bottom:12px;
+}
+table,th,tr{
+    text-align: center;
+}

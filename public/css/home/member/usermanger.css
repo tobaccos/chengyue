@@ -1,0 +1,47 @@
+.user {
+  width: 10rem;
+  height: 1.25rem;
+  border-bottom: 2px solid #ccc;
+  line-height: 1.25rem;
+  padding: 0 0.46875rem;
+}
+.user span:nth-of-type(2) {
+  float: right;
+}
+.user span:nth-of-type(1) {
+  color: #010101;
+}
+.re-chong {
+  font-size: 0.46875rem;
+  color: #636b6f;
+  font-family: "黑体";
+  font-weight: bold;
+  float: left;
+  padding-right: 0.46875rem;
+}
+.yue {
+  color: #636b6f !important;
+}
+#cent {
+  margin-right: 0.6rem;
+}
+.appbox {
+  width: 4.921875rem;
+  margin: 0.546875rem auto;
+}
+.appcash {
+  height: 0.9375rem;
+  line-height: 0.46875rem;
+  background-color: #ff3600;
+  font-size: 0.5625rem;
+  color: #fff;
+  border-radius: 0.28125rem;
+}
+.appstate {
+  margin-left: 1.703125rem;
+  font-size: 0.390625rem;
+  color: #ff3600;
+}
+.appwarn {
+  font-size: 0.34375rem;
+}

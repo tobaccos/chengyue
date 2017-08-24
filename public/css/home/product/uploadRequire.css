@@ -1,0 +1,206 @@
+html,
+body {
+  background: #fff;
+  overflow-x: hidden !important;
+}
+.back {
+  width: 0.703125rem;
+  margin-top: -0.234375rem;
+  margin-left: 0.390625rem;
+}
+.topArea {
+  height: 1.15625rem;
+  color: #ff3600;
+  border-bottom: 0.046875rem solid #ff3600;
+  margin-bottom: 0.234375rem;
+  vertical-align: middle;
+}
+.topArea span {
+  display: inline-block;
+  font-size: 0.46875rem;
+  margin-top: 0.234375rem;
+  margin-left: 0.234375rem;
+}
+.qqChat {
+  display: inline-block;
+  width: 0.78125rem;
+  margin-left: 0.15625rem;
+  margin-top: -0.234375rem;
+}
+.upImg1,
+.upImg2 {
+  width: 100%;
+  height: 4.375rem;
+  margin-bottom: 0.3125rem;
+  margin-left: 0.078125rem;
+  position: relative;
+}
+.preview1,
+.preview2 {
+  width: 3.15625rem;
+  height: 4.375rem;
+  line-height: 4.375rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 0.3125rem;
+  margin-left: 0.234375rem;
+  border: 1px solid #ff3600;
+  float: left;
+}
+.upImg1 img,
+.upImg2 img {
+  width: 3.125rem;
+  max-height: 4.375rem;
+}
+.uploadBtn_1 {
+  width: 3.125rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 0;
+  left: 0.234375rem;
+  opacity: 0;
+}
+.uploadBtn_2 {
+  width: 3.125rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 0;
+  left: 0.234375rem;
+  opacity: 0;
+}
+.imgDes1,
+.imgDes2 {
+  border-radius: 0.078125rem;
+  padding: 0.078125rem 0.234375rem;
+  background: rgba(0, 175, 14, 0.05);
+  height: 4.375rem;
+  width: 5.9375rem;
+  margin-right: 0.390625rem;
+  float: right;
+  font-size: 0.390625rem;
+}
+.noticeText {
+  display: inline-block;
+  width: 100%;
+  margin-left: 0.390625rem;
+  font-size: 0.390625rem;
+}
+.iDo {
+  float: right;
+  margin-right: 0.234375rem;
+  font-size: 0.390625rem;
+  padding: 0.078125rem 0.3125rem;
+  border: 1px solid #ff3600;
+  border-radius: 0.125rem;
+  background: rgba(255, 54, 0, 0.12);
+}
+.kuang {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  display: none;
+}
+.qq {
+  width: 8.4375rem;
+  height: 7.5rem;
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  margin-top: -3.984375rem;
+  margin-left: -4.21875rem;
+  left: 50%;
+  top: 50%;
+  z-index: 300;
+}
+.qq .q-header img {
+  width: 8.4375rem;
+  height: 1.5625rem;
+}
+.qq ul li {
+  width: 4.21875rem;
+  height: 1.40625rem;
+  float: left;
+  padding-left: 0.390625rem;
+  position: relative;
+}
+.qq ul li img {
+  width: 0.78125rem;
+  height: 0.9375rem;
+  position: relative;
+  top: 0.234375rem;
+}
+.qq ul li .kefu {
+  position: absolute;
+  width: 2.5rem;
+  height: 0.625rem;
+  background-color: #FF3600;
+  margin-top: 0.421875rem;
+  text-align: center;
+  line-height: 0.625rem;
+  right: 0.40625rem;
+  top: 0;
+  font-size: 0.359375rem;
+  font-family: "黑体";
+  border-radius: 0.3125rem;
+  color: #fff;
+}
+.closes img {
+  width: 0.78125rem;
+  height: 0.78125rem;
+  color: #aaa;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.fixed {
+  background: #CCCCCC;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  font-size: 0.5rem;
+}
+#content {
+  background: #fff;
+  border-top: 1px #ccc solid;
+}
+.layui-layer-btn a {
+  border: none !important;
+  background: none !important;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  border: none !important;
+  background: none !important;
+}
+.layui-layer-title {
+  display: none !important;
+}
+.layui-layer-content {
+  font-size: 0.46875rem !important;
+  font-family: "Microsoft YaHei", sans-serif;
+  text-align: center;
+  margin-top: 0.234375rem;
+}
+.layui-layer-dialog {
+  width: 5.9375rem !important;
+  height: 2.5rem !important;
+}
+.layui-layer-ico {
+  background: url("../../../images/base/close.png") no-repeat !important;
+  width: 0.703125rem !important;
+  height: 0.703125rem !important;
+}
+span.layui-layer-setwin a {
+  width: 0.859375rem !important;
+  height: 0.859375rem !important;
+  margin-right: -0.390625rem !important;
+}
+.layFont {
+  display: inline-block;
+  line-height: 1.875rem;
+  height: 1.875rem;
+  font-size: 0.4375rem;
+  vertical-align: middle;
+}

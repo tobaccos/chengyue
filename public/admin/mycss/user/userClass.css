@@ -1,0 +1,41 @@
+#user .submenu{
+    display:block;
+}
+#user>a{
+    color:#5999D0;
+}
+.totop{
+    top:9px;
+}
+.data{
+    width: 270px;
+    float: left;
+    display: inline-block;
+}
+.register{
+    margin-top: 8px;
+    float: left;
+    margin-right: 5px;
+}
+.searchbtn{
+    border-radius:4px;
+    height:28px;
+    margin-top:-3px;
+    line-height:14px;
+}
+.myadd{
+    margin-bottom:12px;
+}
+table,th,tr{
+    text-align: center;
+}
+.mybtn{
+    margin-bottom:12px;
+}
+.data input{
+    font-size:8px;
+}
+.delBtnPo{
+    float: right;
+    margin-bottom: 8px;
+}

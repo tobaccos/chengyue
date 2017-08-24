@@ -1,0 +1,327 @@
+body {
+  background: #FFFFFF;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  margin-top: 1.3125rem;
+}
+.banner img {
+  width: 100%;
+}
+.proList_con {
+  width: 100%;
+  background: #fff;
+}
+.swiper-container {
+  width: 100%;
+  height: 4.984375rem;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 0.296875rem;
+}
+.swiper_wraper {
+  width: 100%;
+  border: 1px solid;
+  position: relative;
+}
+.swiper-pagination {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swiper-pagination-bullet {
+  width: 0.1875rem;
+  height: 0.1875rem;
+  margin-left: 0.140625rem;
+  margin-right: 0.140625rem;
+}
+.swiper_wraper ul {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.swiper_wraper ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+.swiper_wraper ul li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.imgDiv {
+  height: 1.5625rem;
+  width: 100%;
+}
+.swiper_wraper ul li a img {
+  height: 100%;
+  padding-top: 0.234375rem;
+}
+.swiper_wraper ul li a span {
+  display: inline-block;
+  width: 100%;
+  line-height: 0.296875rem;
+  text-align: center;
+  font-size: 0.34375rem;
+  color: #000000;
+  font-family: "黑体";
+  margin-top: 0.234375rem;
+}
+.index_recommend {
+  width: 100%;
+  height: 7.1875rem;
+  background: url(../../../images/base/commendb.jpg) no-repeat center center;
+  position: relative;
+  border: 1px solid;
+  background-size: 100% 100%;
+}
+.recommond_title {
+  width: 100%;
+  height: 1.125rem;
+  padding-left: 3.03125rem;
+}
+.recommond_title span:nth-child(1),
+span:nth-child(3) {
+  display: inline-block;
+  width: 1.03125rem;
+  height: 1px;
+  border: 1px solid ;
+}
+.recommond_title span:nth-child(2) {
+  display: inline-block;
+  font-size: 0.375rem;
+  height: 100%;
+  line-height: 1.125rem;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+.index_recommend .recommond_con {
+  width: 8.375rem;
+  margin: 0 auto;
+}
+.recommond_con img {
+  height: 2.6rem;
+}
+.index_recommend .recommond_con .img_box {
+  width: 3.90625rem;
+  height: 2.59375rem;
+  margin: 0.09375rem 0.09375rem 0.0625rem 0.15625rem;
+  float: left;
+  border-radius: 0.109375rem;
+  overflow: hidden;
+  text-align: center;
+}
+.index_timeLimit {
+  width: 100%;
+}
+.timeLimit_title {
+  width: 100%;
+  height: 1.125rem;
+  padding-left: 3.03125rem;
+  position: relative;
+}
+.limit {
+  position: absolute;
+  left: 0;
+  height: 0;
+  height: 0.734375rem;
+  line-height: 0.734375rem;
+  font-size: 0.234375rem;
+  padding-left: 0.9375rem;
+}
+.more {
+  padding-left: 1.5625rem;
+  font-size: 0.3125rem;
+}
+.timeLimit_title span:nth-child(1),
+span:nth-child(3) {
+  display: inline-block;
+  width: 1.03125rem;
+  height: 1px;
+  border: 1px solid ;
+}
+.timeLimit_title span:nth-child(2) {
+  display: inline-block;
+  font-size: 0.375rem;
+  height: 100%;
+  line-height: 1.125rem;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+.index_timeLimit .timeLimit_con {
+  width: 9rem;
+  height: 5.546875rem;
+  border-radius: 0.109375rem;
+  margin: 0 auto;
+  border: 1px solid;
+  overflow: hidden;
+}
+.index_timeLimit .timeLimit_con img {
+  width: 100%;
+  height: 100% ;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item1 {
+  width: 100%;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item1 > div {
+  width: 50%;
+  height: 2.984375rem;
+  float: left;
+  border: #ff3600 1px solid;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item1 div:nth-child(1) {
+  position: relative;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item1 img.jinrihaohuo {
+  position: absolute;
+  width: 0.546875rem;
+  height: 100%;
+  top: 0;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.index_timeLimit .timeLimit_con .timeLimit_item2 > div {
+  width: 2.53125rem;
+  height: 2.53125rem;
+}
+.index_activity {
+  width: 100%;
+  background: rgba(231, 231, 231, 0.5);
+  text-align: center;
+}
+.index_activity img {
+  height: 100%;
+}
+.activity_title {
+  width: 100%;
+  height: 1.125rem;
+  padding-left: 2.59375rem;
+}
+.activity_title span:nth-child(1),
+span:nth-child(3) {
+  display: inline-block;
+  width: 1.03125rem;
+  height: 1px;
+  border: 1px solid ;
+}
+.activity_title span:nth-child(2) {
+  display: inline-block;
+  font-size: 0.375rem;
+  height: 100%;
+  line-height: 1.125rem;
+  padding-left: 0.3125rem;
+  padding-right: 0.3125rem;
+}
+.index_activity .activity_bg {
+  width: 100%;
+  height: 1.71875rem;
+}
+.activity_bg img {
+  width: 100%;
+}
+.activity_imgbox {
+  width: 100%;
+  margin-top: 0.203125rem;
+  padding: 0.15625rem 0.109375rem;
+}
+.activity_imgbox ul {
+  width: 100%;
+  height: 1.40625rem;
+  display: flex;
+  justify-content: space-around;
+}
+.activity_imgbox ul li {
+  width: 3.125rem;
+  height: 100%;
+  border: 1px solid;
+}
+.index_productList img {
+  width: 100%;
+  height: 100%;
+}
+.index_productList .product_title {
+  width: 100%;
+  height: 0.875rem;
+  font-size: 0.46875rem;
+  color: #FF0000;
+  line-height: 0.875rem;
+  padding-left: 0.421875rem;
+  background: url(../../../images/index/product_title.png) no-repeat 6.71875rem center;
+  background-size: 28%;
+}
+.index_productList .product_con {
+  padding-left: 0.109375rem;
+  padding-right: 0.109375rem;
+  display: flex;
+  justify-content: space-between;
+}
+.product_con .product_imgbox {
+  width: 3.15625rem;
+  height: 4.9375rem;
+  position: relative;
+}
+.product_con .product_imgbox .product_btn {
+  position: absolute;
+  left: 50%;
+  bottom: 0.390625rem;
+  transform: translateX(-50%);
+  height: 0.546875rem;
+  width: 2.5rem;
+  line-height: 0.546875rem;
+  text-align: center;
+  background: #ff3600;
+  font-size: 0.375rem;
+  color: #FFFFFF;
+}
+.product_con .product_imgbox div {
+  width: 100%;
+  height: 2.390625rem;
+}
+.product_con .product_imgbox div:last-child {
+  position: absolute;
+  bottom: 0;
+}
+#couple .swiper-wrapper {
+  height: 1.5625rem;
+  margin-top: 0.15625rem;
+}
+#couple .swiper-slide {
+  text-align: center;
+}
+#couple .swiper-slide img {
+  height: 1.484375rem;
+  overflow: hidden;
+  margin-top: 0.03125rem;
+}
+.newHeight {
+  height: 2.34375rem;
+  margin-bottom: 3rem;
+}
+.circle {
+  position: fixed;
+  bottom: 2rem;
+  right: 0.5rem;
+  display: none;
+}
+.circle img {
+  width: 1rem;
+  height: 1rem;
+}
+.hasInBotm {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 0.390625rem;
+  margin-bottom: 2.15625rem;
+  color: #ff3600;
+}

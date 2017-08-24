@@ -1,0 +1,58 @@
+.lineCCC {
+  display: inline-block;
+  border: 1px #ccc solid;
+  width: 100%;
+}
+.redFont {
+  color: #ff3600;
+  font-weight: bold;
+}
+.pricePay {
+  font-size: 0.4375rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  float: right;
+  margin-right: 0.3125rem;
+  height: 1.203125rem;
+  line-height: 1.203125rem;
+}
+.zhiPay,
+.weiPay {
+  width: 1.2rem;
+  margin-right: 0.78125rem;
+}
+.rightCCC {
+  width: 0.546875rem;
+  float: right;
+  margin-right: 0.9375rem;
+  margin-top: 0.34375rem;
+}
+.zhiLink,
+.weiLink {
+  font-family: "Microsoft YaHei", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #717171;
+  font-size: 0.390625rem;
+  width: 100%;
+  margin-top: 0.15625rem;
+  margin-left: 0.46875rem;
+}
+.back {
+  display: inline-block;
+  width: 0.546875rem;
+  float: left;
+  margin-top: 0.359375rem;
+  margin-left: 0.15625rem;
+}
+.chooseParWay {
+  display: inline-block;
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  text-align: center;
+  background: #FF3600;
+  color: #fff;
+  font-size: 0.46875rem;
+  font-weight: bold;
+  font-family: "Microsoft YaHei", sans-serif;
+}

@@ -1,0 +1,233 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-size: 0.25rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 1.265625rem;
+  background-color: #ff3600;
+  text-align: center;
+  color: #fff;
+  line-height: 1.265625rem;
+  font-size: 0.46875rem;
+  z-index: 100;
+  padding-left: 0.421875rem;
+}
+.header span:nth-of-type(1) a {
+  font-size: 0.625rem;
+  float: left;
+  color: #fff;
+  position: relative;
+  left: 0.3125rem;
+}
+.header .left {
+  float: left;
+}
+.imgleft {
+  width: 0.625rem;
+}
+.goods {
+  padding-top: 1.25rem;
+  padding-bottom: 2.8125rem;
+}
+.content .con-head {
+  width: 10rem;
+  height: 0.875rem;
+  background-color: #fff;
+  margin-top: 0.21875rem;
+  line-height: 0.875rem;
+  border: 1px solid #ccc;
+}
+.content .con-head img {
+  width: 0.546875rem;
+  height: 0.609375rem;
+  margin-left: 0.359375rem;
+  vertical-align: middle;
+  position: relative;
+  top: -0.05rem;
+}
+.content .con-head span:nth-of-type(2) {
+  margin-left: 0.28125rem;
+  font-size: 0.4375rem;
+  color: #373737;
+}
+.content .con-head span:nth-of-type(3) {
+  margin-left: 1.1875rem;
+  font-size: 0.46875rem;
+  color: #3A3A3A;
+}
+.content .con-info ul li {
+  padding: 0 0.375rem;
+  height: 2.1875rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.content .con-info .chose img {
+  float: left;
+  width: 0.546875rem;
+  height: 0.609375rem;
+  vertical-align: middle;
+  position: relative;
+  top: 0.8125rem;
+}
+.content .con-info p {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  float: left;
+  position: relative;
+  top: 0.328125rem;
+  margin-left: 0.28125rem;
+}
+.content .con-info p img {
+  width: 1.55rem ;
+  height: 1.55rem;
+}
+.content .con-info .info {
+  height: 1.5625rem;
+  float: left;
+  position: relative;
+  top: 0.3125rem;
+  margin-left: 0.28125rem;
+}
+.content .con-info .info span {
+  display: block;
+  font-size: 0.3125rem;
+}
+.content .con-info .info span:nth-of-type(1) {
+  color: #000;
+}
+.content .con-info .info span:nth-of-type(2) {
+  color: #919191;
+}
+.content .con-info .info input {
+  width: 1.015625rem;
+  height: 0.421875rem;
+  background-color: #F7F7F7;
+  border: none;
+  outline: none;
+  font-size: 0.28125rem;
+  text-align: center;
+}
+.content .con-info h6 strong {
+  font-size: 0.3125rem;
+}
+.content .con-info h6 strong:nth-of-type(1) {
+  font-size: 0.390625rem;
+  margin-right: 0.078125rem;
+  color: #6A6A6A;
+}
+.content .con-info h6 strong:nth-of-type(2) {
+  font-size: 0.359375rem;
+  margin-left: 0.078125rem;
+  color: #E72257;
+}
+.content .con-info .price {
+  float: right;
+  margin-top: 0.3125rem;
+}
+.content .con-info .price span {
+  display: block;
+}
+.content .con-info .price span:nth-of-type(1) {
+  font-size: 0.28125rem;
+  color: #B9B9B9;
+  text-decoration: line-through;
+  text-align: right;
+}
+.content .con-info .price span:nth-of-type(2) {
+  font-size: 0.3125rem;
+  color: #FF676B;
+}
+.content .con-info .price img {
+  width: 0.53125rem;
+  height: 0.625rem;
+  text-align: right;
+  float: right;
+}
+.bottom {
+  position: fixed;
+  bottom: 1.5625rem;
+  width: 10rem;
+  height: 1.28125rem;
+  background-color: #fff;
+  margin-top: 2.578125rem;
+  padding-left: 0.359375rem;
+  line-height: 1.28125rem;
+  z-index: 100;
+}
+.bottom img {
+  width: 0.546875rem;
+  height: 0.609375rem;
+}
+.bottom span:nth-of-type(2) {
+  font-size: 0.359375rem;
+  position: relative;
+  top: 0.05rem;
+}
+.bottom span:nth-of-type(3) {
+  font-size: 0.28125rem;
+  position: relative;
+  top: 0.05rem;
+  margin-left: 0.05rem;
+  color: #FF3F3F;
+}
+.bottom span:nth-of-type(4) {
+  font-size: 0.359375rem;
+  position: relative;
+  margin-left: 0.05rem;
+  color: #FF3F3F;
+}
+.bottom span:nth-of-type(5) {
+  font-size: 0.28125rem;
+  position: relative;
+  top: 0.05rem;
+  margin-left: 0.15rem;
+  color: #A7A7A7;
+}
+.balance {
+  display: block;
+  width: 2.5rem;
+  height: 1.25rem;
+  background-color: #ff3600;
+  float: right;
+  text-align: center;
+  line-height: 1.25rem;
+  font-size: 0.375rem;
+  color: #fff;
+}
+.wus img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+#cent {
+  margin-right: 0.6rem;
+}

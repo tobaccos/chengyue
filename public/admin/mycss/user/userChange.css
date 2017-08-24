@@ -1,0 +1,28 @@
+#user .submenu{
+    display:block;
+}
+#user>a{
+    color:#5999D0;
+}
+.totop{
+    top:18px;
+}
+.data{
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+.register{
+    margin-top: 8px;
+    float: left;
+    margin-right: 5px;
+}
+.searchbtn{
+    border-radius:4px;
+    height:28px;
+    margin-top:-3px;
+    line-height:14px;
+}
+select{
+  margin-left: 0px;
+}

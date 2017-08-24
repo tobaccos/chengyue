@@ -1,0 +1,134 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+//  -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-size: 16/64rem;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.header {
+    width: 640/64rem;
+    height: 100/64rem;
+    background-color: #FE0000;
+    font-size: 36/64rem;
+    line-height: 100/64rem;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.header .left {
+    float: left;
+    margin-left: 50px;
+   
+}
+
+.header .right {
+    float: right;
+    margin-right: 50px;
+   
+}
+
+.header .right a {
+    color: #fff;
+}
+.banner{
+    width: 640/64rem;
+    height: 117/64rem;
+    line-height:117/64rem ;
+    text-align: center;
+    font-size: 30/64rem; 
+    padding-bottom:30/64rem ;
+}
+.banner img {
+  margin-top: 34/64rem;
+  margin-bottom:34/64rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.chose{
+    width:640/64rem;
+    height: 83/64rem;
+    line-height:83/64rem;
+    font-size: 25/64rem;
+    border-bottom: 4px solid #A9A9A9;
+}
+.chose .phone{
+    float: left;
+    width:320/64rem;
+    height: 83/64rem;
+    line-height:83/64rem;
+    text-align: center;
+    border-bottom: 4px solid #FE0000;   
+}
+.chose .email{
+    float: right;
+    width:320/64rem;
+    height: 83/64rem;
+    line-height:83/64rem;
+    text-align: center;
+}
+.group{
+    width:640/64rem;
+    height:90/64rem;
+    line-height:90/64rem ;
+    font-size: 30/64rem;
+    position: relative;
+}
+.group input{
+    width:640/64rem;
+    height:90/64rem;
+    line-height:90/64rem ;
+    border: none;
+    border-bottom: 2px solid #A0A0A0;
+    outline: none;
+    font-size: 30/64rem;
+    padding-left:141/64rem;
+}
+.group img{
+    position: absolute;
+    width: 40/64rem;
+    height: 50/64rem;
+    top: 23/64rem;
+    left: 54/64rem;
+    
+}
+.group button{
+    margin-top: 70/64rem;
+    margin-left:35/64rem;
+    width: 570/64rem;
+    height: 70/64rem;
+    background-color:#FE0000;
+    color: #fff;
+    font-size: 35/64rem;
+    border-radius: 20px;
+    outline: none;
+    letter-spacing: 10px;
+}
+#emailreg{
+    display: none;
+}

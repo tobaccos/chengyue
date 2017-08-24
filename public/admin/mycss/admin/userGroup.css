@@ -1,0 +1,32 @@
+#admin .submenu{
+  display:block;
+}
+#admin>a{
+  color:#5999D0;
+}
+.inn{
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+
+}
+.checkStyle{
+  font-size: 16px;
+  margin-right: 8px;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+.checkAll{
+  float: left;
+}
+#return{
+  float: right;
+}
+#inn{
+  width: 1000px;
+  margin-top: 30px;
+}
+h4{
+  font-weight: bold;
+}

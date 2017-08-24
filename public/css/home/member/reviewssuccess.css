@@ -1,0 +1,15 @@
+body，html {
+  background-color: #fff;
+}
+.center {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 2.8125rem 3.4375rem 0.78125rem;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#cent {
+  margin-right: 0.5rem;
+}

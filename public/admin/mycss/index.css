@@ -1,0 +1,54 @@
+.margin_25{
+    margin-bottom:25px;
+    margin-right:10px;
+    margin-left:15px;
+    margin-top:10px;
+}
+.infobox-data-number{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.info_orange{
+    background-color:#F6BD3A;
+    color:#ffffff;
+}
+.info_green{
+    background-color:#34BE9C;
+    color: #ffffff;
+}
+.info_purple{
+    background-color:#C4A3FE;
+    color: #ffffff;
+}
+.info_littlegreen{
+    background-color:#8CC253;
+    color: #ffffff;
+}
+.info_red{
+    background-color:#E04B83;
+    color: #ffffff;
+}
+.info_littleorange{
+    background-color:#F6BD3A;
+    color: #ffffff;
+}
+.info_littlered{
+    background-color:#ED6164;
+    color: #ffffff;
+}
+.info_blue{
+    background-color:#3BAEDA;
+    color: #ffffff;
+}
+.indexicon{
+    font-size:75px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.indexfont{
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}

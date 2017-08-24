@@ -1,0 +1,17 @@
+#admin .submenu{
+	display:block;
+}
+#admin>a{
+	color:#5999D0;
+}
+.inn{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+#return{
+  float:right;
+}
+.subb{
+  margin-top:30px;
+}

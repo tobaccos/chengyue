@@ -1,0 +1,63 @@
+#dynamic-table th,tr,td{
+    text-align:center;
+}
+.myadd{
+    margin-bottom: 12px;
+}
+.myicon::before{
+    font-size:25px;
+}
+#product .submenu{
+    display:block;
+}
+#product>a{
+    color:#5999D0;
+}
+#nav-search{
+    top:11px;
+}
+.searchbtn{
+    border-radius:4px;
+    height:28px;
+    margin-top:-3px;
+    line-height:14px;
+}
+.dateform{
+    width: 270px;
+    top: -39px;
+    position: absolute;
+    right: 103px;
+}
+.dateform input{
+    font-size:8px;
+}
+.proclass{
+    width:150px;
+    position: absolute;
+    margin-top: -41px;
+   left: 203px;
+}
+#dynamic-table i{
+    width:20px;
+    height:20px;
+}
+.page{
+    text-align: center;
+}
+.label{
+    line-height: 15px !important;
+}
+.table > tbody > tr > td{
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+.action-buttons a {
+    margin-right: 17px !important;
+}
+.tr_right{
+    position: relative;
+}
+.order_right{
+   position: absolute;
+    right:0px;
+}

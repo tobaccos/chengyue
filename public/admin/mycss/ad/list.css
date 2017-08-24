@@ -1,0 +1,33 @@
+#dynamic-table th,tr,td{
+    text-align:center;
+}
+.myadd{
+    margin-bottom: 12px;
+}
+.myicon::before{
+    font-size:25px;
+}
+#ad .submenu{
+    display:block;
+}
+#ad>a{
+    color:#5999D0;
+}
+.page{
+    text-align: center;
+}
+.action-buttons a {
+    margin-right: 17px !important;
+}
+#returnBtn{
+    float: right;
+}
+.error{
+    padding-top:6px;
+    padding-left:5px;
+    font-size:10px;
+    color:red;
+}
+.no-left{
+    margin-left:0px;
+}

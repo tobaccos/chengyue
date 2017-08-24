@@ -1,0 +1,26 @@
+#product .submenu{
+    display:block;
+}
+#product>a{
+    color:#5999D0;
+}
+.attrAdd{
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    background: #6fb3e0;
+    color: #fff;
+    font-size: 16px;
+}
+.error{
+  padding-top:6px;
+  padding-left:5px;
+  font-size:10px;
+  color:red;
+}
+#myname{
+    width: 436px;
+}

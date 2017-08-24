@@ -1,0 +1,15 @@
+.proItem .proItemList {
+  position: relative;
+  z-index: 0;
+}
+.time {
+  position: absolute;
+  top: 0.16rem;
+  right: 0.20rem;
+  font-size: 0.3rem;
+  font-family: "黑体";
+}
+.proItemList.proImg {
+  position: relative;
+  z-index: 100;
+}

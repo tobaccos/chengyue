@@ -1,0 +1,249 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-size: 0.25rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.header {
+  width: 10rem;
+  height: 1.375rem;
+  background-color: #ff3600;
+  padding: 0 0.421875rem;
+  line-height: 1.375rem;
+  z-index: 100;
+  text-align: center;
+}
+.header .left {
+  font-family: "黑体";
+  float: left;
+  color: #fff;
+  font-size: 0.78125rem;
+}
+.header span {
+  font-size: 0.46875rem;
+  color: #FFF;
+}
+.time {
+  padding: 0.515625rem 1.296875rem;
+  width: 10rem;
+  height: 2.28125rem;
+  background-color: #fff;
+}
+.t-left p:nth-of-type(1) {
+  font-size: 0.390625rem;
+  color: #282828;
+}
+.times {
+  font-size: 0.3125rem;
+  color: #282828;
+}
+.times img {
+  width: 1.546875rem;
+  height: 1.21875rem;
+}
+.time .t-right {
+  float: right;
+}
+.time .t-left {
+  float: left;
+}
+section {
+  margin-bottom: 0.3125rem;
+}
+.s-info {
+  padding-left: 0.390625rem;
+  padding-right: 0.1875rem;
+  width: 10rem;
+  height: 2.65625rem;
+  background-color: #fff;
+  padding-top: 0.3125rem;
+}
+.s-info p {
+  width: 8.4375rem;
+  font-size: 0.359375rem;
+  color: #000000;
+  float: right;
+}
+.tel {
+  float: right;
+  margin-right: 0.46875rem;
+}
+.goods-header {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  padding: 0 0.359375rem;
+  margin-top: 3px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.goods-header span:nth-of-type(1) {
+  margin-left: 0.15625rem;
+  font-size: 0.40625rem;
+  color: #000000;
+  position: relative;
+  top: 0.1rem;
+}
+.goods-header span:nth-of-type(2) {
+  font-family: "黑体";
+  font-size: 0.375rem;
+  color: #000;
+  position: relative;
+  top: 0.1rem;
+}
+.goods-pro {
+  height: 3.203125rem;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0.359375rem;
+  background-color: #fff;
+}
+.goods-pro span:nth-of-type(1) img {
+  width: 0.625rem;
+  height: 0.703125rem;
+  position: relative;
+  top: 0.46875rem;
+}
+.goods-pro span:nth-of-type(2) img {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  background-color: #ccc;
+  position: relative;
+  top: 0.546875rem;
+  margin-left: 0.203125rem;
+}
+.pro-info {
+  float: right;
+  margin-top: 0.515625rem;
+  width: 6.40625rem;
+  line-height: 0.46875rem;
+}
+.pro-info p:nth-of-type(1) {
+  font-size: 0.390625rem;
+  color: #3C3C3C;
+}
+.pro-info .proxilie {
+  font-size: 0.328125rem;
+  color: #9D9D9D;
+}
+.pro-info .proxilie span:nth-of-type(1) {
+  margin-right: 0.703125rem;
+}
+.pro-info .price .now {
+  font-size: 0.359375rem;
+  color: #E7520E;
+  margin-right: 0.15625rem;
+}
+.pro-info .price .old {
+  font-size: 0.359375rem;
+  color: #BBBBBB;
+  text-decoration: line-through;
+  margin-right: 3.59375rem;
+}
+.pro-info .price strong {
+  font-size: 0.359375rem;
+  color: #BBBBBB;
+  font-style: normal;
+}
+.pro-info .price .num {
+  font-style: normal;
+}
+.prozong {
+  width: 10rem;
+  height: 0.984375rem;
+  line-height: 0.984375rem;
+  padding: 0 0.46875rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.a {
+  font-size: 0.359375rem;
+  color: #262626;
+}
+.zong {
+  float: right;
+}
+.yifu {
+  width: 10rem;
+  height: 0.984375rem;
+  line-height: 0.984375rem;
+  padding: 0 0.46875rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.pay {
+  float: right;
+  color: #FF3502;
+  font-size: 0.421875rem;
+}
+.lian {
+  width: 10rem;
+  height: 1.25rem;
+  background-color: #fff;
+  line-height: 1.25rem;
+  padding: 0 0.40625rem;
+}
+.lian img {
+  width: 4.53125rem;
+  height: 0.78125rem;
+}
+.true {
+  width: 1.9375rem;
+  height: 0.75rem;
+  font-size: 0.359375rem;
+  text-align: center;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+  color: #FF3401;
+  border: 1px solid #FF3401;
+  outline: 0;
+  position: fixed;
+  bottom: 0.359375rem;
+  right: 0.359375rem;
+  z-index: 100;
+}
+.del,
+.warn {
+  right: 2.5rem;
+}
+.kuang {
+  display: none;
+}
+.kuang {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 101;
+}
+#warn {
+  width: 5rem;
+  height: 0.78125rem;
+  background-color: #fff;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.5rem;
+  margin-top: -1.5625rem;
+  z-index: 230;
+  text-align: center;
+  line-height: 0.78125rem;
+  font-size: 0.359375rem;
+  display: none;
+}

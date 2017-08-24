@@ -1,0 +1,265 @@
+#orders .submenu {
+	display: block;
+}
+
+#orders>a {
+	color: #5999D0;
+}
+
+.allWid {
+	margin: 0 auto;
+	width: 670px;
+	height: 328px;
+	/*height: 300px;*/
+	background: #fff;
+	padding: 20px 50px;
+	
+	
+}
+
+.autt {
+	margin-left: 40%;
+}
+
+.logoImg {
+	width: 50px;
+	float: left;
+}
+
+.telImg {
+	width: 20px
+}
+
+.qqImg {
+	width: 20px
+}
+
+.logoLab {
+	font-size: 18px;
+	float: left;
+	margin-top: 15px
+}
+
+.printArea{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top: none;
+	border-bottom: none;
+
+	/* background: #fff; */
+	/* margin-bottom: 25px; */
+	/*  height: 320px; */
+	/*padding: 20px;*/
+}
+.printArea1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -6px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top: none;
+
+	/* background: #fff; */
+	/* margin-bottom: 25px; */
+	/*  height: 320px; */
+	/*padding: 20px;*/
+}
+
+.mesLab {
+	font-size: 16px;
+}
+
+
+/*.topRig{
+  width: 30%;
+}*/
+
+input {
+	height: 30px;
+	width: 100px;
+}
+
+input {
+	margin-left: 7px;
+	/*font-size: 16px ! important;*/
+	color: #000000 ! important;
+}
+
+#code {
+	BACKGROUND-COLOR: transparent !important;
+	/*padding: 0px !important;*/
+	border: none;
+	/*float:right ;*/
+	/*float:left ;*/
+	width: 65% !important;
+	position: relative;
+	bottom: 1px;
+}
+
+#name {
+	BACKGROUND-COLOR: transparent !important;
+	/*padding: 0px !important;*/
+	border: none;
+	/*float:left ;*/
+	width: 40% !important;
+	position: relative;
+	bottom: 1px;
+}
+
+.topName {
+	width: 18%;
+}
+
+.fz {
+	font-size: 12px ! important;
+}
+
+.col-4 {
+	width: 35%;
+}
+
+.col-3 {
+	width: 60%;
+}
+
+.col-5 {
+	width: 100%;
+	clear: both;
+}
+
+.topTel {
+	width: 33%;
+}
+
+.lee {
+	text-align: left;
+}
+
+.topTel1 {
+	width: 30%;
+}
+
+.topLib {
+	width: 48%;
+}
+
+.toPay {
+	width: 38%;
+}
+
+.topRig1 {
+	margin-top: 10px;
+	width: 48%;
+}
+
+.toRight {
+	float: right;
+}
+
+.tdn1 {
+	border-right: 1px solid #000 ! important;
+}
+
+.tdn {
+	border: none;
+	/*这个是单元格，不给他要边框*/
+}
+
+table {
+	width: 100%;
+	/* height: 100%; */
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+th {
+	font-size: 14px;
+	text-align: center;
+}
+
+td {
+	font-size: 14px;
+	text-align: center;
+	padding-left: 5px ! important;
+}
+
+.tela {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+.pad{
+	padding-right:100px ;
+}
+
+.fz1 {
+	margin-right: 20px;
+}
+
+.fphone {
+	/*margin-right: 100px;*/
+	width: 31%;
+}
+
+#address td {
+	height: 40px;
+	position: relative;
+	/*bottom: 10px;*/
+}
+
+#goods {
+	height: 24px;
+}
+
+.goods {
+	height: 24px;
+}
+
+#goods2 {
+	height: 41px;
+}
+
+.goods2 {
+	height: 41px;
+}
+
+#space {
+	position: relative;
+	top: 10px;
+}
+
+.title{
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border-bottom: none;
+}
+.foot{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+	position: absolute;
+	bottom: 4px;
+	border-top: none;
+	
+}
+.con{
+	position: absolute;
+	width: 100%;top: 52px;
+}
+.con1{
+
+}

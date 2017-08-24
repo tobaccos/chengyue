@@ -1,0 +1,17 @@
+.col-sm-9 label{
+    margin-left:10px;
+    margin-top:5px;
+    font-size:12px;
+}
+.col-sm-9 input{
+    width:41.7%;
+}
+.col-sm-9 .error{
+    color:red;
+}
+.setInfo p{
+    font-size:10px;
+    margin-bottom:0px;
+    margin-top:5px;
+    color:red;
+}

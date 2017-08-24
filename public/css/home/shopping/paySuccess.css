@@ -1,0 +1,88 @@
+.return img {
+  display: inline-block;
+  width: 0.546875rem;
+  float: left;
+  margin-top: 0.359375rem;
+  margin-left: 0.15625rem;
+}
+.payTitle {
+  display: inline-block;
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  text-align: center;
+  background: #FF3600;
+  color: #fff;
+  font-size: 0.46875rem;
+  font-weight: bold;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+.result {
+  clear: both;
+  background: #fff;
+  width: 100%;
+  height: 6.25rem;
+}
+.left {
+  float: left;
+  margin-left: 1.3125rem;
+  margin-top: 0.78125rem;
+}
+.left img {
+  width: 2.15625rem;
+}
+.right {
+  float: left;
+  width: 6.25rem;
+}
+.payResult {
+  display: inline-block;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-weight: bold;
+  font-size: 0.46875rem;
+  color: #ff3600;
+  margin-top: 0.9375rem;
+  margin-left: 0.46875rem;
+  width: 100%;
+}
+.note {
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #ccc;
+  font-size: 0.390625rem;
+  display: inline-block;
+  width: 4.5rem;
+  margin-left: 0.46875rem;
+  margin-top: 0.15625rem;
+}
+.bottom {
+  width: 100%;
+  height: 1.3125rem;
+  clear: both;
+}
+.look,
+.goOn {
+  float: left;
+  font-size: 0.390625rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+  display: inline-block;
+  width: 2.5rem;
+  height: 0.78125rem;
+  line-height: 0.78125rem;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 1.5625rem;
+  margin-top: 0.78125rem;
+}
+.addsImg {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.234375rem;
+  background: #fff;
+}
+.addsImg img {
+  width: 100%;
+  height: 2.5rem;
+}

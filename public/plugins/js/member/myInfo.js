@@ -1,0 +1,28 @@
+//代理商申请
+$(".vicar").click(function(){
+	$(".shadw").show();
+	$(".kuang").show();
+	$(".sure").click(function(){
+		$(".shadw").hide();
+	    $(".now").show();
+	    setTimeout(function(){
+	    	 $(".now").hide();
+	    	 $(".kuang").hide();
+	    },2000)
+	   $.ajax({
+    	url:"http://www.xxx",
+    	dataType:"json",
+    	async:true,
+    	data:{"state":"success"},
+    	type:"post",//请求的方式
+    	success:function(req){
+    		
+    	},
+    	error:function(){}//请求出错的处理
+});
+	})
+	$(".quxiao").click(function(){
+		$(".shadw").hide();
+	    $(".kuang").hide();
+	})
+})

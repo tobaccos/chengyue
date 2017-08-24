@@ -1,0 +1,14 @@
+#partner .submenu{
+    display:block;
+}
+#partner>a{
+    color:#5999D0;
+}
+#preview{width:250px;height:200px;border:1px solid #D5D5D5;overflow:hidden;}
+#imghead {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);}
+.uplode{
+    margin-left: 12px;
+}
+.butup{
+    margin-left: -13px;
+}

@@ -1,0 +1,13 @@
+/*温馨提示*/
+.myalert{
+    font-size: 14px;
+    font-weight: bold;
+    color:#FFF;
+}
+.alertwords{
+    color:#fff;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: normal;
+}

@@ -1,0 +1,9 @@
+#admin .submenu{
+	display:block;
+}
+#admin>a{
+	color:#5999D0;
+}
+#return{
+	float:right;
+}

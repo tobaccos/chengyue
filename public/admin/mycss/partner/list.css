@@ -1,0 +1,17 @@
+#partner .submenu{
+    display:block;
+}
+#partner>a{
+    color:#5999D0;
+}
+.tab1{
+    table-layout: fixed;
+    word-break: break-all;
+
+}
+.myadd{
+    margin-bottom:12px;
+}
+table,th,tr{
+    text-align: center;
+}

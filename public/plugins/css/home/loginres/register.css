@@ -1,0 +1,123 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-size: 0.25rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.header {
+  width: 10rem;
+  height: 1.5625rem;
+  background-color: #FE0000;
+  font-size: 0.5625rem;
+  line-height: 1.5625rem;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.header .left {
+  float: left;
+  margin-left: 50px;
+}
+.header .right {
+  float: right;
+  margin-right: 50px;
+}
+.header .right a {
+  color: #fff;
+}
+.banner {
+  width: 10rem;
+  height: 1.828125rem;
+  line-height: 1.828125rem;
+  text-align: center;
+  font-size: 0.46875rem;
+  padding-bottom: 0.46875rem;
+}
+.banner img {
+  margin-top: 0.53125rem;
+  margin-bottom: 0.53125rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.chose {
+  width: 10rem;
+  height: 1.296875rem;
+  line-height: 1.296875rem;
+  font-size: 0.390625rem;
+  border-bottom: 4px solid #A9A9A9;
+}
+.chose .phone {
+  float: left;
+  width: 5rem;
+  height: 1.296875rem;
+  line-height: 1.296875rem;
+  text-align: center;
+  border-bottom: 4px solid #FE0000;
+}
+.chose .email {
+  float: right;
+  width: 5rem;
+  height: 1.296875rem;
+  line-height: 1.296875rem;
+  text-align: center;
+}
+.group {
+  width: 10rem;
+  height: 1.40625rem;
+  line-height: 1.40625rem;
+  font-size: 0.46875rem;
+  position: relative;
+}
+.group input {
+  width: 10rem;
+  height: 1.40625rem;
+  line-height: 1.40625rem;
+  border: none;
+  border-bottom: 2px solid #A0A0A0;
+  outline: none;
+  font-size: 0.46875rem;
+  padding-left: 2.203125rem;
+}
+.group img {
+  position: absolute;
+  width: 0.625rem;
+  height: 0.78125rem;
+  top: 0.359375rem;
+  left: 0.84375rem;
+}
+.group button {
+  margin-top: 1.09375rem;
+  margin-left: 0.546875rem;
+  width: 8.90625rem;
+  height: 1.09375rem;
+  background-color: #FE0000;
+  color: #fff;
+  font-size: 0.546875rem;
+  border-radius: 20px;
+  outline: none;
+  letter-spacing: 10px;
+}
+#emailreg {
+  display: none;
+}

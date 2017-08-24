@@ -1,0 +1,50 @@
+html,
+body {
+  background: #fff;
+  overflow-x: hidden !important;
+}
+
+.upImg1,
+.upImg2 {
+  width: 100%;
+  height:280px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  position: relative;
+}
+.preview1,
+.preview2 {
+  width: 204px;
+  height: 280px;
+  padding: 2px;
+  line-height: 280px;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #ff3600;
+  float: left;
+}
+.upImg1 img,
+.upImg2 img {
+  width: 200px;
+  max-height: 300px;
+}
+
+.imgDes1,
+.imgDes2 {
+  border-radius: 5px;
+  padding:5px 5px;
+  background: rgba(0, 175, 14, 0.05);
+  height: 280px;
+  width: 500px;
+  margin-left: 30px;
+  /* margin-right: 220px; */
+  /* float: right; */
+  font-size: 25px;
+}
+.backLast{
+  float: right;
+  margin-top: -43px;
+  margin-right: 10px;
+}

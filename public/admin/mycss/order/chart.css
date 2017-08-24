@@ -1,0 +1,25 @@
+#orders .submenu {
+display: block;
+}
+#chart{
+  margin-bottom: 3px;
+}
+
+#orders>a {
+color: #5999D0;
+}
+.clickbtn {
+  margin-bottom: 3px;
+}
+#time{
+  width:150px;
+  margin-left:0px;
+}
+#id{
+  width:150px;
+}
+#container{
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}

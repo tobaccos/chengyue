@@ -1,0 +1,109 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-size: 0.25rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.header {
+  width: 10rem;
+  height: 1.5625rem;
+  background-color: #FE0000;
+  font-size: 0.5625rem;
+  line-height: 1.5625rem;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.header .left {
+  float: left;
+  margin-left: 50px;
+}
+.header .right {
+  float: right;
+  margin-right: 50px;
+}
+.header .right a {
+  color: #fff;
+}
+.banner {
+  width: 10rem;
+  height: 2.890625rem;
+  line-height: 2.890625rem;
+  text-align: center;
+  font-size: 0.46875rem;
+  position: relative;
+  border-bottom: 4px solid #FE0000;
+}
+.banner img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.banner h6 {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.46875rem;
+  top: 0.78125rem;
+  text-align: center;
+  left: 3.59375rem;
+  height: 1.25rem;
+}
+.group{
+    width:640/64rem;
+    height:90/64rem;
+    line-height:90/64rem ;
+    font-size: 30/64rem;
+    position: relative;
+}
+.group input{
+    width:640/64rem;
+    height:90/64rem;
+    line-height:90/64rem ;
+    border: none;
+    border-bottom: 2px solid #A0A0A0;
+    outline: none;
+    font-size: 30/64rem;
+    padding-left:141/64rem;
+}
+.group span{
+    position: absolute;
+    left: 5/64rem;
+    top:0;
+    z-index: 200;    
+}
+.group button{
+    margin-top: 70/64rem;
+    margin-left:35/64rem;
+    width: 570/64rem;
+    height: 70/64rem;
+    background-color: #FF5959;
+    color: #fff;
+    font-size: 35/64rem;
+    border-radius: 20px;
+    outline: none;
+    letter-spacing: 10px;
+}
+input{
+	position: relative;
+	z-index: 100;
+}

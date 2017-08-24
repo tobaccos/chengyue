@@ -1,0 +1,161 @@
+.line {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 0.046875rem;
+  background-color: #ccc;
+  line-height: 0.1rem;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-top: 0.15625rem;
+}
+.return img {
+  display: inline-block;
+  width: 0.625rem;
+  float: left;
+  margin-top: 0.390625rem;
+  margin-left: 0.3125rem;
+}
+.orderTitle {
+  display: inline-block;
+  width: 100%;
+  height: 1.375rem;
+  line-height: 1.375rem;
+  text-align: center;
+  background: #FF3600;
+  color: #fff;
+  font-size: 0.46875rem;
+  font-weight: bold;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+.addressPart {
+  margin-left: 0.3125rem;
+  min-height: 1.5625rem;
+}
+.fontSize {
+  font-size: 0.46875rem;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+.userPhone {
+  margin-left: 0.3125rem;
+}
+.userAddress {
+  font-size: 0.359375rem;
+  color: #c3c3c3;
+  display: inline-block;
+  margin-top: 0.15625rem;
+}
+.right {
+  float: right;
+  margin-right: 0.390625rem;
+}
+.right img {
+  width: 0.625rem;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+}
+.redDot {
+  display: inline-block;
+  width: 100%;
+}
+.proSort {
+  display: inline-block;
+  font-size: 0.46875rem;
+  margin-left: 0.3125rem;
+  margin-top: 0.15625rem;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+.proImg {
+  float: left;
+  margin-left: 0.3125rem;
+  width: 1.3125rem;
+  height: 1.3125rem;
+  margin-bottom: -0.15625rem;
+}
+.proName {
+  font-size: 0.390625rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-weight: bold;
+  margin-left: 0.234375rem;
+}
+.proPrice {
+  font-size: 0.390625rem;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #ff0000;
+  float: right;
+  margin-right: 0.390625rem;
+}
+.proParam {
+  font-size: 0.34375rem;
+  margin-left: 1.875rem;
+  margin-top: 0.078125rem;
+}
+.num {
+  float: right;
+  margin-right: 0.390625rem;
+}
+.userNote {
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 0.390625rem;
+  margin-left: 0.234375rem;
+  line-height: 1.15625rem;
+}
+.noteContent {
+  height: 0.78125rem;
+  width: 5rem;
+  padding-left: 0.078125rem;
+  font-size: 0.390625rem;
+  color: #000;
+}
+.proNum {
+  float: right;
+  font-size: 0.390625rem;
+  margin-right: 0.15625rem;
+}
+.font {
+  float: right;
+  font-size: 0.390625rem;
+  margin-left: 1rem;
+}
+.allPrice {
+  float: right;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-size: 0.390625rem;
+  color: #ff0000;
+  margin-right: 0.390625rem;
+}
+.proNum,
+.font,
+.allPrice {
+  line-height: 1.15625rem;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.submitOrder {
+  float: right;
+  height: 1.15625rem;
+  width: 3.125rem;
+  background: #ff3600;
+  color: #fff;
+  font-size: 0.46875rem;
+  margin-top: -0.09375rem;
+}
+.shouldPay {
+  display: inline-block;
+  width: 6.875rem;
+  height: 1.0625rem;
+  background: #fff;
+  font-size: 0.390625rem;
+  color: #ff3600;
+  font-family: "Microsoft YaHei", sans-serif;
+  font-weight: bold;
+  padding-top: 0.15625rem;
+  padding-left: 0.390625rem;
+}
+#cent {
+  margin-right: 0.8rem;
+}

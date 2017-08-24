@@ -1,0 +1,21 @@
+.user {
+  width: 10rem;
+  height: 1.25rem;
+  border-bottom: 2px solid #ccc;
+  line-height: 1.25rem;
+  padding: 0 0.46875rem;
+}
+.user span:nth-of-type(2) {
+  float: right;
+}
+.user span:nth-of-type(1) {
+  color: #010101;
+}
+.re-chong {
+  font-size: 0.46875rem;
+  color: #636b6f;
+  font-family: "黑体";
+  font-weight: bold;
+  float: left;
+  padding-right: 0.46875rem;
+}

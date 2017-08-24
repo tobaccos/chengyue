@@ -1,0 +1,118 @@
+
+/*添加属性表单*/
+.mysel{
+    width:163px;
+}
+.myform{
+    width:420px;
+    height:auto;
+    margin:10px auto;
+    text-align: center;
+}
+.bigadd{
+    margin-left:20px;
+    margin-right:5px;
+}
+.bigadd,.bigchange,.addattr,.delattr{
+    margin-top:-4px;
+}
+.delattr{
+    margin-left:10px;
+}
+.attrname{
+    margin-left:-40px;
+    margin-top:10px;
+}
+/*.comcon{*/
+/*color:#6FB3E0;*/
+/*}*/
+
+.prolabel{
+    padding:0px;
+    /*margin-left:56px;*/
+    font-size:12px;
+}
+.protext{
+    width:315px;
+    color:#6FB3E0;
+}
+input[type='text']{
+    font-size:12px;
+}
+.clear{
+    clear:both;
+}
+.attrlists{
+    margin-left:185px;
+}
+.attrlist{
+    width:200px;
+    height:auto;
+    margin-left:20px;
+    border-radius:10px;
+    /*background:#dddddd;*/
+    border:1px solid #dddddd;
+    padding:5px;
+    margin-bottom:20px;
+    float: left;
+    font-size:10px;
+}
+.attrlist label{
+    font-size:10px;
+    display:inline-block;
+    width:50px;
+}
+.attrlist input{
+    border:none;
+    font-size:10px;
+    background: #dddddd;
+    /*border: 1px solid #000;*/
+    width: 60px;
+}
+/*.attrlist .key,.attrlist .value{*/
+    /*margin:15px 15px;*/
+/*}*/
+.btnspan{
+    width: 36px;
+    height: 28px;
+    background: blue;
+    border-radius: 6px;
+    padding: 6px 6px;
+    font-size:12px;
+    margin-top: 15px;
+    block: inline-block;
+    display: inline-block;
+    margin-left:19px;
+    margint-right:0px;
+    margin-bottom:0px;
+    color: #ffffff;
+}
+.btnspan:hover{
+    cursor: pointer;
+}
+.btnmod{
+    background:#6FB3E0;
+}
+.btncopy{
+    background:#4cae4c;
+}
+.btndel{
+    background:#d43f3a;
+}
+.moreattr input{
+    width:148px;
+    margin-right:20px;
+}
+.input-group{
+    width:200px;
+}
+
+.sjdate{
+    margin-left:11px;
+}
+.userinput{
+    margin-top:6px;
+}
+.attrlists label{
+    margin:0px;
+}

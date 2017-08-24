@@ -1,0 +1,221 @@
+
+/*添加属性表单*/
+.mysel{
+    width:163px;
+}
+.myform{
+    width:420px;
+    height:auto;
+    margin:10px auto;
+    text-align: center;
+}
+.bigadd{
+    margin-left:20px;
+    margin-right:5px;
+}
+.bigadd,.bigchange,.addattr,.delattr{
+    margin-top:-4px;
+}
+.delattr{
+    margin-left:10px;
+}
+.attrname{
+    margin-left:-40px;
+    margin-top:10px;
+}
+/*.comcon{*/
+/*color:#6FB3E0;*/
+/*}*/
+
+.prolabel{
+    padding:0px;
+    /*margin-left:56px;*/
+    font-size:12px;
+}
+.protext{
+    width:315px;
+    color:#6FB3E0;
+}
+input[type='text']{
+    font-size:12px;
+}
+.clear{
+    clear:both;
+}
+.attrlists{
+    margin-left:185px;
+}
+.attrlist{
+    width:200px;
+    height:auto;
+    margin-left:20px;
+    border-radius:10px;
+    /*background:#dddddd;*/
+    border:1px solid #dddddd;
+    padding:5px;
+    margin-bottom:20px;
+    float: left;
+    font-size:10px;
+}
+.attrlist label{
+    font-size:10px;
+    display:inline-block;
+    width:50px;
+}
+.attrlist input{
+    border:none;
+    font-size:10px;
+    background: #dddddd;
+    /*border: 1px solid #000;*/
+    width: 60px;
+}
+/*.attrlist .key,.attrlist .value{*/
+    /*margin:15px 15px;*/
+/*}*/
+.btnspan{
+    width: 36px;
+    height: 28px;
+    background: blue;
+    border-radius: 6px;
+    padding: 6px 6px;
+    font-size:12px;
+    margin-top: 15px;
+    block: inline-block;
+    display: inline-block;
+    margin-left:19px;
+    margint-right:0px;
+    margin-bottom:0px;
+    color: #ffffff;
+}
+.btnspan:hover{
+    cursor: pointer;
+}
+.btnmod{
+    background:#6FB3E0;
+}
+.btncopy{
+    background:#4cae4c;
+}
+.btndel{
+    background:#d43f3a;
+}
+.moreattr input{
+    width:148px;
+    margin-right:20px;
+}
+.input-group{
+    width:200px;
+}
+
+.sjdate{
+    margin-left:11px;
+}
+.userinput{
+    margin-top:6px;
+}
+.attrlists label{
+    margin:0px;
+}
+.uploadify{
+    display:inline-block;
+}
+.uploadify-button{
+    border:none;
+    border-radius:5px;
+    margin-top:5px;
+}
+.img{
+    float: left;
+    list-style: none;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:36px;
+}
+
+.attralert{
+    margin-left: 180px;
+    margin-top: -12px;
+}
+.attralert li{
+    width: 800px;
+    list-style: none;
+    margin-left: 190px;
+}
+.attralert i{
+    margin-top: 5px;
+    width: 35px;
+}
+.input-group .form-control{
+    width: 93% !important;
+}
+select{
+    margin-left:0px;
+    padding-top:1px;
+}
+.error{
+    padding-top:6px;
+   padding-left:5px;
+    font-size:10px;
+    color:red;
+}
+.setInfo{
+    font-size:10px;
+    margin-bottom:0px;
+    margin-top:5px;
+    color:red;
+}
+.form-group > label[class*="col-"]{
+    margin-bottom:0px;
+}
+.warn{
+    margin-top: 14px !important;
+    color: #FF0000;
+    margin-left: -60px;
+}
+.warn1{
+    color: #FF0000;
+    margin-left: 46px
+}
+.imginfo{
+    margin-top:-14px;
+    margin-bottom:10px;
+}
+/*颜色标志*/
+.bgFlag,.bgFlagCh{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    float: right;
+    background: red;
+    position: relative;
+}
+.bgShow,.bgShowCh{
+    width:11px;
+    float: right;
+    margin-top: 11px;
+}
+.bgColor,.bgColorCh{
+    display: none;
+    width: 11px;
+    height: 11px;
+    float: right;
+}
+.bgShow span:nth-child(1),.bgShowCh span:nth-child(1){
+    background: blue;
+}
+.bgShow span:nth-child(2),.bgShowCh span:nth-child(2){
+    background:skyblue;
+}
+.bgShow span:nth-child(3),.bgShowCh span:nth-child(3){
+    background: green;
+}
+.bgShow span:nth-child(4),.bgShowCh span:nth-child(4){
+    background: red;
+}
+.bgShow span:nth-child(5),.bgShowCh span:nth-child(5){
+    background: pink;
+<<<<<<< .mine
+}
+=======
+}
+>>>>>>> .theirs

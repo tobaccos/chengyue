@@ -1,0 +1,39 @@
+.uploadify{
+    display:inline-block;
+}
+.uploadify-button{
+    border:none;
+    border-radius:5px;
+    margin-top:5px;
+}
+.img{
+    float: left;
+    list-style: none;
+    margin-top:80px;
+    margin-bottom:50px;
+    margin-right:36px;
+}
+fieldset {
+    width:860px;
+    height:auto;
+    /*border:1px solid #ccc;*/
+}
+.num{
+    width:189px;
+}
+.attralert{
+    margin-left: 180px;
+    margin-top: -12px;
+}
+.attralert li{
+    width: 800px;
+    list-style: none;
+    margin-left: 190px;
+}
+.attralert i{
+    margin-top: 5px;
+    width: 35px;
+}
+.page{
+    text-align:center;
+}

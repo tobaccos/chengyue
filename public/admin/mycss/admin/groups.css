@@ -1,0 +1,20 @@
+.tab1{
+	table-layout: fixed;
+	word-break: break-all;
+}
+#admin .submenu{
+	display:block;
+}
+#admin>a{
+	color:#5999D0;
+}
+.mybtn{
+	 margin-bottom:12px;
+ }
+table,th,tr{
+	text-align: center;
+}
+#modd{
+  height: 200px;
+  font-size: 16px;
+}

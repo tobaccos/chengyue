@@ -1,0 +1,21 @@
+#dynamic-table th,tr,td{
+    text-align:center;
+}
+.myadd{
+    margin-bottom: 12px;
+}
+.myicon::before{
+    font-size:25px;
+}
+#product .submenu{
+    display:block;
+}
+#product>a{
+    color:#5999D0;
+}
+.page{
+    text-align: center;
+}
+.action-buttons a {
+    margin-right: 17px !important;
+}
